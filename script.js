@@ -17,3 +17,7 @@ cdIcon.addEventListener('click', function() {
   }
   isPlaying = !isPlaying;
 });
+
+document.getElementById('folder-icon').addEventListener('click', function() {
+  document.getElementById('gallery-popup').style.display = 'block';
+});
