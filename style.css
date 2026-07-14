@@ -31,8 +31,8 @@ body {
 }
 
 #mail-popup {
-  width: 500px;
-  min-height: 400px;
+  width: 700px;
+  min-height: 600px;
   background-image: url('assets/popup-bg.jpg');
   background-size: cover;
   background-position: center;
