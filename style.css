@@ -50,3 +50,23 @@ body {
   padding: 15px;
   text-align: center;
 }
+
+#gallery-popup {
+  width: 400px;
+  height: 500px;
+  background: #000;
+}
+
+.gallery-body {
+  height: 100%;
+  overflow-y: auto;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.gallery-body img {
+  width: 100%;
+  display: block;
+  margin-bottom: 15px;
+  border-radius: 4px;
+}
