@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.desktop {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('assets/background.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  width: 60px;
+  cursor: pointer;
+}
+
+.window {
+  display: none;
+  position: absolute;
+  top: 150px;
+  left: 300px;
+  width: 300px;
+  background: #c0c0c0;
+  border: 2px solid #000;
+  font-family: sans-serif;
+  z-index: 10;
+}
+
+.titlebar {
+  background: navy;
+  color: white;
+  padding: 4px 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.window-body {
+  padding: 15px;
+  text-align: center;
+}
